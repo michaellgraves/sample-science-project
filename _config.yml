@@ -12,7 +12,7 @@ description:      'This is where you put your project short description'
 #Github Pages site and baseurl, submodule name
 url:                https://michaellgraves.github.io
 baseurl:            /sample-science-project
-submodule:          /template          
+submodule:          /new_template          
 
 #Local site
 url:                #http://localhost:4000
@@ -20,10 +20,10 @@ url:                #http://localhost:4000
 # Where things are - include submodule in path
 source:       .
 destination:  ./_site
-plugins_dir:  ./template/_plugins
-layouts_dir:  ./template/_layouts
-data_dir:     ./template/_data
-includes_dir: ./template/_includes
+plugins_dir:  ./new_template/_plugins
+layouts_dir:  ./new_template/_layouts
+data_dir:     ./new_template/_data
+includes_dir: ./new_template/_includes
 
 # Front Matter defaults
 defaults:
